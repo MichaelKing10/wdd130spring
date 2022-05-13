@@ -1,0 +1,23 @@
+body{
+    background-color: pink;
+}
+main p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.nelson {
+    display: block;
+    width: 25%;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+    color: aliceblue;
+}
+h1:hover {
+    color: black;
+}
+.list {
+    text-align: center;
+}
