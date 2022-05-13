@@ -1,3 +1,6 @@
+header {
+    text-align: center;
+}
 body{
     background-color: pink;
 }
@@ -12,6 +15,7 @@ main p {
     margin: 0 auto;
 }
 h1 {
+    font-family: sans-serif;
     text-align: center;
     color: aliceblue;
 }
@@ -20,4 +24,13 @@ h1:hover {
 }
 .list {
     text-align: center;
+}
+.list ol{
+    text-align:left;
+    width:20%;
+    margin: 50px auto;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 2em;
 }
