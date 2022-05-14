@@ -27,10 +27,19 @@ h1:hover {
 }
 .list ol{
     text-align:left;
-    width:20%;
-    margin: 50px auto;
+    width:30%;
+    margin: 20px auto;
     font-family: sans-serif;
     font-weight: bold;
     font-size: 14px;
     line-height: 2em;
+}
+.quote {
+    text-align: center;
+    color: beige;
+    width: 15%;
+    margin: 5px auto;
+}
+footer p {
+    text-align: center;
 }
