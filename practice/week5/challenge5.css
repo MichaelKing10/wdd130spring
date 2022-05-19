@@ -1,0 +1,15 @@
+.circle {
+    display: block;
+    margin: 0 auto;
+}
+.background {
+    background-color: rgb(61, 60, 60);
+    margin-left: 27px;
+    margin-right: 26px;
+}
+.images {
+    width: 220px;
+    border-radius: 50%;
+    margin: 50px 90px;
+    border: 8px solid black;
+}
