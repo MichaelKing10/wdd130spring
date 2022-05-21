@@ -41,7 +41,7 @@ section {
 }
 body {
     background-color: lightcyan;
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'ubuntu', 'esteban', sans-serif;
     margin: 0;
     padding: 0;
 }
