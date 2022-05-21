@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Esteban&family=Ubuntu:ital,wght@1,300&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,7 +8,11 @@ nav a {
     text-align: center;
     color: whitesmoke;
     text-decoration: none;
+    padding: 35px;
 }
+#logo_link {
+    padding-top: 5px;
+}  
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
@@ -21,6 +27,7 @@ nav a {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 main  {
     text-align: center;
@@ -34,6 +41,12 @@ section {
 }
 body {
     background-color: lightcyan;
+    font-family: ubuntu;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header, footer {
     background-color:#368F8B ;
@@ -46,6 +59,10 @@ nav a:hover {
     background-color: #f39395d7;
     color: azure;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #396E94;
@@ -53,18 +70,30 @@ nav a:hover {
 }
 .msg {
     background-color: #368F8B;
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg h2 {
+    color: #0e033f;
+    font-family: esteban;
+}
+.msg p {
+    color: rgba(14, 13, 13, 0.733);
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .home-title {
     color: #146864;
+    font-family: 'esteban', 'ubuntu', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #575454;
 }
-.msg h2 {
-    color: #0e033f;
-}
-.msg p {
-    color: rgba(14, 13, 13, 0.733);
+footer {
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer h3 {
     color: #133853;
@@ -78,4 +107,16 @@ footer a:hover {
 }
 footer h3 a:hover {
     text-decoration: underline;
+}
+footer .social {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid black;
+}
+main section img {
+    box-sizing: border-box;
 }
