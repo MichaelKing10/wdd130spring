@@ -147,12 +147,12 @@ nav a:hover {
   background-color: #ccc;
   line-height: 3em;
 }
-.sm-page2 {
+.sm-blog {
   grid-area: page2;
   background-color: #ccc;
   line-height: 3em;
 }
-.sm-page3 {
+.sm-aboutus {
   grid-area: page3;
   background-color: #ccc;
   line-height: 3em;
