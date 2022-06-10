@@ -177,10 +177,19 @@ nav a:hover {
 .img-us{
   margin-top: 5px;
   margin-bottom: 5px;
+  transition: transform .5s;
+  box-shadow: 5px 5px 10px #6f7364;
 }
+.img-us:hover {
+  opacity: .6;
+  transform: scale(1.1);
+}
+
 .img-blog{
   margin-top: 5px;
   margin-bottom: 5px;
+  transition: transform .5s;
+  box-shadow: 5px 5px 10px #6f7364;
 }
 .img-home{
   margin-top: 5px;
