@@ -200,8 +200,84 @@ footer .social {
     width: 100%;
 }
 
+/* BLOG CSS FILES */
+/* This Marks the eginning of the CSS File for the Blog page. */
+
+#content2 {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.blog-title {
+    color: #146864;
+    font-family: 'esteban', 'ubuntu', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+#blogbackground {
+    height: 725px;
+    background-color: #368F8B;
+    /* grid-column: 1/11;
+    grid-row: 4/9; */
+}
+#bloghero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    /* margin-top: -100px;  */
+}
+#bloghero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#bloghero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+} 
+#bloghero-msg h1 {
+    color: antiquewhite;
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#bloghero-msg h4 {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: white;
+}
+.blog-grid {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+}
+.encounter {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+.scorpion {
+    background-color: coral;
+    width: 500px;
+    height: 150px;
+    border: 1px solid;
+    overflow: auto;
+  }
+  .scorpion-img{
+    grid-template-columns: 2/3;
+  }
+.sheep {
+    background-color: coral;
+    width: 200px;
+    height: 70px;
+    border: 1px solid;
+    overflow: auto;
+  }.sheep-img{
+    grid-template-columns: 3/4;
+  }
 
 
+
+
+/* Do not place any CSS File below here */
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
