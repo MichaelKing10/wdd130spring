@@ -253,12 +253,16 @@ footer .social {
     display: grid;
     /* grid-template-columns: 1fr 1fr 1fr; */
 }
-.encounter {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.highlight {
+    margin: 10px 0;
 }
 .highlight-img {
     margin: 25px 5px;
+}
+.encounter {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 5px;
 }
 .scorpion {
     background-color: coral;
@@ -267,18 +271,20 @@ footer .social {
     border: 1px solid;
     overflow: auto;
 }
-  .scorpion-img{
+.scorpion-img{
     grid-template-columns: 2/3;
+    width: 60%;
 }
 .sheep {
     background-color: coral;
     width: 500px;
-    height: 200px;
+    height: 150px;
     border: 1px solid;
     overflow: auto;
 }
 .sheep-img{
     grid-template-columns: 3/4;
+    width: 70%;
 }
 
 
