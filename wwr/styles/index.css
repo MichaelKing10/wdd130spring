@@ -200,6 +200,9 @@ footer .social {
     width: 100%;
 }
 
+
+
+
 /* BLOG CSS FILES */
 /* This Marks the eginning of the CSS File for the Blog page. */
 
@@ -253,6 +256,9 @@ footer .social {
     display: grid;
     /* grid-template-columns: 1fr 1fr 1fr; */
 }
+.summer {
+    margin: 10px 0;
+}
 .highlight {
     margin: 10px 0;
 }
@@ -262,7 +268,16 @@ footer .social {
 .encounter {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 5px;
+    grid-template-rows: 1;
+    margin: 10px 0;
+}
+.encounter h2 {
+    margin: 10px 5px;
+    padding: 5px;
+}
+.encounter p {
+    margin: 10px 5px;
+    padding: 5px;
 }
 .scorpion {
     background-color: coral;
@@ -290,6 +305,39 @@ footer .social {
 
 
   /* STYLING FOR "CONTACT US" PAGE */
+
+#contacthero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px; 
+}
+#contacthero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#contacthero-img {
+    width: 100%;
+    margin-bottom: 5px;
+}
+#contacthero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+} 
+#contacthero-msg h1 {
+    color: antiquewhite;
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#contacthero-msg h4 {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: white;
+}
+ 
 form {
     /* Center the form on the page */
     margin: 0 auto;
