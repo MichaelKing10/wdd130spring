@@ -11,9 +11,12 @@ nav {
 }
 nav a {
     text-align: center;
-    color: whitesmoke;
+    color: #055864;
     text-decoration: none;
+    margin: 25px auto;
     padding: 30px;
+    border: 1px solid;
+    border-radius: 5px;
 }
 nav a:hover {
     background-color: #055864;
@@ -29,8 +32,9 @@ nav a:hover {
     text-align: center;
 } */
 .logo {
-    width: 115px;
-    margin: 0 auto;
+    width: 120px;
+    padding: 0 2px;
+    margin: 5px auto;
 }
 /* .icon {
     width: 80px;
@@ -135,7 +139,7 @@ footer a {
     text-decoration: none;
 }
 footer a:hover {
-    color: green;
+    color: #B91379;
 }
 footer h3 a:hover {
     text-decoration: underline;
