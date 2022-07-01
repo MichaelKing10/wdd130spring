@@ -40,11 +40,12 @@ nav a {
     grid-column: 2/3;
     grid-row: 1/2;
 }
-#hero-msg h4 {
+#hero-msg h3 {
     text-align: center;
     grid-column: 2/3;
     grid-row: 1/2;
     color: white;
+    margin-top: 100px;
 }
 #hero-img {
     width: 100%;
@@ -53,7 +54,7 @@ nav a {
     text-align: center;
 }
 .logo {
-    width: 80px;
+    width: 100px;
 }
 .icon {
     width: 80px;
@@ -63,6 +64,7 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
     background-color: rgb(103, 235, 217, .3);
+    margin: 5px;
 }
 /* main  {
     text-align: center;
