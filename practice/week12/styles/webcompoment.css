@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Esteban&family=Lora:ital,wght@1,400;1,500;1,600&family=Macondo&family=Noto+Serif:ital@0;1&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #CEB727;
+}
+nav a {
+    text-align: center;
+    color: #055864;
+    text-decoration: none;
+    margin: 25px auto;
+    padding: 30px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+nav a:hover {
+    background-color: #055864;
+    color: #EDEAE8;
+    /* padding: 0px; */
+}
+#logo_link {
+    padding-top: 0.5px;
+    justify-self: center;
+    align-self: center;
+} 
+/* .button-box {
+    text-align: center;
+} */
+.logo {
+    width: 120px;
+    padding: 0 2px;
+    margin: 5px auto;
+}
+/* .icon {
+    width: 80px;
+    padding-top: 5px;
+} */
+
+header {
+    display: grid;
+    grid-template-columns: 120px auto;
+    background-color: #CEB727;
+}
+
+
+section {
+  text-align: center;
+}
+.home-title {
+  color: #146864;
+  font-family: 'esteban', 'ubuntu', sans-serif;
+  font-size: 4em;
+  margin-top: 150px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#background {
+  height: 225px;
+  background-color: #368F8B;
+}
+
+/* Flip Card CSS Here */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  }
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+
+
+/** Footer CSS  in Place**/
+footer {
+  padding: 20px 40px;
+  margin-top: 150px;
+  background-color: #6f7364;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#footer-logo {
+  padding-top: 15px;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin: 5px 0;
+}
+footer h3 {
+  color: #133853;
+}
+footer a {
+  color: rgb(200, 209, 216);
+  text-decoration: none;
+}
+footer a:hover {
+  color: #B91379;
+}
+footer h3 a:hover {
+  text-decoration: underline;
+}
+footer .social {
+  padding-top: 15px;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin: 2px 0;
+}
