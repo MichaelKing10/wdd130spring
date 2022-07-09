@@ -254,7 +254,14 @@ header {
     opacity: .6;
     transform: scale(1.1);
 }
-#background {
+.name{
+    margin-top: 120px;
+}
+.blogmsg h2 {
+    /* color: #0e033f; */
+    font-family: esteban;
+}
+/* #background {
     height: 100px;
     background-color: #368F8B;
     grid-column: 1/11;
@@ -269,12 +276,9 @@ header {
     background-color: #6f7364;
     box-shadow: 5px 5px 10px #6f7364;
 }
-.blogmsg h2 {
-    /* color: #0e033f; */
-    font-family: esteban;
-}
+
 .blogmsg p {
-    /* color: rgba(14, 13, 13, 0.733); */
+    color: rgba(14, 13, 13, 0.733);
     font-size: 3em;
     margin-top: 20px;
     padding-bottom: 15px;
@@ -293,7 +297,7 @@ header {
 }
 section {
     text-align: center;
-}
+} */
 
 
 .flip-card {
