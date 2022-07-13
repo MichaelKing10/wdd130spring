@@ -23,18 +23,24 @@ nav a:hover {
   color: #edeae8;
   /* padding: 0px; */
 }
+nav a:active {
+  background-color: #b91379;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 #logo_link {
   padding-top: 0.5px;
   justify-self: center;
   align-self: center;
+  margin-left: 8px;
 }
 /* .button-box {
     text-align: center;
 } */
 .logo {
-  width: 120px;
+  width: 125px;
   padding: 0 2px;
-  margin: 5px auto;
+  margin: 2px auto;
 }
 /* .icon {
     width: 80px;
@@ -313,14 +319,39 @@ header {
   font-size: 1.2em;
   margin: 10px;
 }
+.about {
+  margin-top: 10px;
+  font-size: 1.2em;
+  text-align: left;
+}
 .iyore-img{
   /* background-color: coral; */
-    width: 600px;
-    height: 800px;
+    float: left;
+    width: 500px;
+    height: 700px;
     border: 1px solid;
     overflow: auto;
     margin: 10px
   
+}.about-grid {
+  display: grid;
+  /* grid-template-columns: repeat(10, 1fr); */
+}
+.more {
+  border: #000;
+  border-style: 0.5px solid;
+  border-radius: 2px;
+  max-width: fit-content;
+  text-align: center;
+  background-color: #278bce;
+  margin-top: 25px;
+  margin-left: 33.33%;
+  padding: 15px 30px;
+  text-shadow: 1px 1px 2px whitesmoke, 0 0 5px darkblue;
+}
+.last {
+  font-size: 1.2em;
+  margin-left: 15px;
 }
 
 
@@ -350,6 +381,7 @@ header {
   margin-top: 100px;
 } 
 #contacthero-msg h1 {
+  font-size: 2em;
   color: antiquewhite;
   text-align: center;
   grid-column: 2/3;
