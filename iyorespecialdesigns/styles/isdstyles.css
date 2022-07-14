@@ -338,7 +338,7 @@ header {
 .about-grid {
   display: grid;
   grid-template-rows: 1fr auto;
-  /* grid-template-columns: repeat(5, 1fr); */
+  /* grid-template-columns: 1fr auto; */
 }
 .more {
   border: #000;
