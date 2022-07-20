@@ -85,7 +85,7 @@ header {
   width: 100%;
   margin-top: -10px;
 }
-#home-grid {
+.home-grid {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -211,17 +211,17 @@ header {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
 }
-.native-card,
+.kids-card,
 .gowns-card,
 .trad-card {
-  margin: 50px 0;
+  margin: 35px 0;
 }
 .english-card,
 .mixed-card,
 .others-card {
   margin: 5px 0;
 }
-.native-card {
+.kids-card {
   grid-column: 2/4;
   grid-row: 1/2;
   width: 100%;
@@ -273,7 +273,7 @@ header {
 .flip-card {
   background-color: transparent;
   width: 300px;
-  height: 450px;
+  height: 465px;
   perspective: 1000px;
 }
 
@@ -308,8 +308,15 @@ header {
 .flip-card-back {
   background-color: #2980b9;
   color: white;
+  padding: 5px;
   transform: rotateY(180deg);
 }
+.flip-card-back p {
+text-align: center;
+margin: 0 auto;
+}
+
+
 
 /* ABOUT US CSS FILES */
 /* This Marks the Beginning of the CSS File for the About-US page. */
@@ -361,7 +368,6 @@ header {
 
 
 
-
 /* STYLING FOR "CONTACT US" PAGE */
 
 #contacthero {
@@ -399,15 +405,9 @@ header {
   margin-top: 300px;
   color: #5ff3ec;
 }
-/* #contacthero-msg h4 {
-  text-align: center;
-  grid-column: 2/3;
-  grid-row: 1/2;
-  color: #b91379;
-} */
 
 form {
-  margin: 0 auto;
+  margin: 15px auto;
   width: 400px;
   padding: 1em;
   border: 1px solid #CCC;
@@ -467,4 +467,48 @@ button {
 }
 .moveDown {
   margin-top: 3em;
+}
+
+
+
+
+
+
+/* Do not place any CSS File below here */
+@media screen and (max-width: 900px) {
+  #hero, .home-grid, .blog-grid {
+      display: block;
+      height: auto;
+  }
+  nav, footer {
+      flex-direction: column;
+  }
+  nav a {
+      display: block;
+      padding: 15px;
+  }
+  #hero, #bloghero {
+      margin-top: 0;
+  }
+  #hero-msg, #bloghero-msg {
+      margin-top: 0;
+  }
+  #hero-msg h4 {
+      display: none;
+  }
+  .home-title, .blog-title {
+      font-size: 25px;
+      color: #6f7364;
+  }
+  .english-card, .kids-card, .mixed-card, 
+  .trad-card, .gowns-card, .others-card { 
+      margin: 50px auto;
+      width: 60%;
+  }
+  #background {
+      display: none;
+  }
+  footer {
+      margin-top: 25px;
+  }
 }
