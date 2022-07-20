@@ -400,11 +400,12 @@ margin: 0 auto;
   text-align: center;
   grid-column: 2/3;
   grid-row: 1/2;
-  /* color: #b91379; */
+  color: #b91379;
   font-size: 2.5em;
   margin-top: 300px;
   /* color: #5ff3ec; */
-  color: #ceb727;
+  /* color: #ceb727; */
+  /* color: #b91379; */
 }
 
 form {
