@@ -190,6 +190,10 @@ header {
   margin-top: 50px;
   margin-left: 50px;
 }
+#bloghero-msg h3{
+  color: #b91379;
+  font-size: 1.4em;
+}
 #bloghero-msg p {
   text-align: center;
   grid-column: 2/3;
