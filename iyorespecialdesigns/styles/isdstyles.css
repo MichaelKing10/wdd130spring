@@ -42,10 +42,6 @@ nav a:active {
   padding: 0 2px;
   margin: 2px auto;
 }
-/* .icon {
-    width: 80px;
-    padding-top: 5px;
-} */
 
 header {
   display: grid;
@@ -85,7 +81,7 @@ header {
   width: 100%;
   margin-top: -10px;
 }
-.home-grid {
+#home-grid {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
   grid-template-rows: 1fr 1fr;
